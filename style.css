@@ -1,0 +1,174 @@
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-image: url("images/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar #a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar-right {
+  float: right;
+}
+
+#navbar #a:hover {
+  background-color: rgb(124, 188, 252);
+  color: white;
+}
+
+#navbar #a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  padding: 25px 10px 10px 10px;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;  
+  border: none;
+  outline: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px 10px 10px 10px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(124, 188, 252);
+  color: white;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(124, 188, 252);
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn2 {
+  background-color: dodgerblue;
+  color: white;
+  font-size: 17px;  
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+#main {
+  margin-top: 72px;
+  margin-bottom: 50px;
+  width: 1120px;
+  background-color:#FFFFFF;
+  border: 2px solid turquoise;
+ }
+
+/* table, tr, td {
+  border: 2px solid turquoise;
+  border-collapse: collapse;
+} */
+
+#ptag {
+  padding:  10px 10px 10px 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: #f1f1f1;
+  color: black;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(124, 188, 252);
+  color: white;
+}
+
+dt {
+  font-size: 25px;
+  color: dodgerblue;
+  padding: 10px;
+}
+
+dd {
+  font-size: 14px;
+  color: darkgrey;
+}
+
+subtitle {
+  color: darkgrey;
+  font-size: 14px;
+}
+li {
+  padding: 10px 10px;
+}
+
+#job-list {
+  list-style: square inside url('images/job-search.png');
+}
+
+#footer {
+  bottom: 0%;
+  width: 100%;
+  position: fixed;
+  text-align: center;        
+  font-size: 12px;
+  background: #f1f1f1;
+  padding: 10px 0;
+  color: rgba(48, 48, 48, .700);
+}
